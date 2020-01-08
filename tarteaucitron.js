@@ -522,7 +522,7 @@ var tarteaucitron = {
                             html += '<div id="tarteaucitronPremium"></div>';
 
                             div.id = 'tarteaucitronRoot';
-                            if (tarteaucitron.parameters.bodyPosition === 'top') {                          
+                            if (tarteaucitron.parameters.bodyPosition === 'top') { 
                                 // Prepend tarteaucitron: #tarteaucitronRoot first-child of the body for better accessibility
                                 var bodyFirstChild = body.firstChild;
                                 body.insertBefore(div, bodyFirstChild);
