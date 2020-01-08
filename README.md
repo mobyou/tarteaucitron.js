@@ -37,6 +37,7 @@ tarteaucitron.init({
     "cookieName": "tarteaucitron", /* Cookie name */
     
     "orientation": "middle", /* Banner position (top - bottom) */
+    "bodyPosition": "top", /* div#tarteaucitronRoot source position (top - bottom) */
     "showAlertSmall": true, /* Show the small banner on bottom right */
     "cookieslist": true, /* Show the cookie list */
 
